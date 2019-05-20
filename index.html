@@ -17,6 +17,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.0/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+
+
+
 </head>
 <body>
 
@@ -40,10 +46,45 @@
         <section class="heading">
             <h1 class="txt1" >Share your </h1>
             <h1>Holiday dream</h1>
-            <h6>And find the perfect partner to fulfil it</h6>
+            <h6>And find the perfect partner to fulfill it</h6>
             <button type="button" class="btn btn-primary">Find your holiday partner</button>
         </section>
     </header>
+
+    <!-- content  -->
+
+    <main>
+        <h2 class="txt2">Meet a partner for the best holiday</h2>
+
+        <section class="partners">
+            <div>
+                <img src="images/partner1.jpg" alt="" data-aos="fade-right">
+                <h3 data-aos="fade-down" >Bradley Hunter</h3>
+                <p data-aos="fade-up">Based in Chik8cago. I love playing tennis and loud music.</p>
+            </div>
+            <div>
+                <img src="images/partner2.jpg" alt="" data-aos="flip-up">
+                <h3 data-aos="fade-down">Maria Bennett</h3>
+                <p data-aos="fade-up">Currently living in Colorado. Lover of art, languages and travelling.</p>
+            </div>
+            <div>
+                <img src="images/partner3.jpg" alt="" data-aos="flip-down">
+                <h3 data-aos="fade-down">Diana Wells</h3>
+                <p data-aos="fade-up">Living in Athens, Greece. I love black and white classics, chillout music and green tea.</p>
+            </div>
+            <div>
+                <img src="images/partner4.jpg" alt="" data-aos="fade-left">
+                <h3 data-aos="fade-down">Christopher Pierce</h3>
+                <p data-aos="fade-up">Star Wars fanatic. I have a persistent enthusiasm to create new things.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+            AOS.init({
+                duration: 2000,
+            })
+    </script>
     
 </body>
 </html>
