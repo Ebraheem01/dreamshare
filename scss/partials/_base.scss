@@ -1,0 +1,61 @@
+// base styles
+
+body {
+    margin:0;
+}
+
+// styling the navbar
+
+nav {
+    ul{
+        position: absolute;
+        list-style: none;
+        font-family: 'Roboto', sans-serif;
+        // font-family: 'Montserrat', sans-serif;
+    }
+
+    .logo {
+            
+        float: left;
+        text-transform: uppercase;
+        padding: 2vw 10vw;
+
+        a{
+            text-decoration: none;
+            color: white;
+            font-size: 2vw;
+            padding: 2vw 3vw;
+        }
+    }
+
+    li{
+        display: inline;
+    }
+
+    .float{ //set the links to float right
+        float: right;
+        padding-top: 2.5vw;
+        margin-left: -3vw;
+        
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 1.5vw;
+            padding-left: 2vw;
+        }
+
+    }
+
+    .btn {
+        background: transparent;
+        color: white;
+        font-size: 1.5vw;
+        border: white 1px solid;
+        border-radius: 1.25rem;
+
+        &:hover {
+            background: $Orange;
+            border: $Orange;
+        }
+    }
+}

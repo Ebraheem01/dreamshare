@@ -1,0 +1,69 @@
+.header {
+  background-image: url(../images/headerBackground.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  background-repeat: no-repeat; }
+
+.heading {
+  position: absolute;
+  top: 30%;
+  left: 35%;
+  font-family: 'Roboto', sans-serif; }
+  .heading h1 {
+    font-size: 4vw;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600; }
+  .heading .txt1 {
+    padding-left: 3vw; }
+  .heading h6 {
+    padding: 1.8vw 2vw;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3vw; }
+  .heading button {
+    background: #FF4E50;
+    border: none;
+    border-radius: 1.25rem;
+    margin-left: 7vw; }
+    .heading button:hover {
+      background: #FFA710; }
+
+body {
+  margin: 0; }
+
+nav ul {
+  position: absolute;
+  list-style: none;
+  font-family: 'Roboto', sans-serif; }
+nav .logo {
+  float: left;
+  text-transform: uppercase;
+  padding: 2vw 10vw; }
+  nav .logo a {
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    padding: 2vw 3vw; }
+nav li {
+  display: inline; }
+nav .float {
+  float: right;
+  padding-top: 2.5vw;
+  margin-left: -3vw; }
+  nav .float a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    padding-left: 2vw; }
+nav .btn {
+  background: transparent;
+  color: white;
+  font-size: 1.5vw;
+  border: white 1px solid;
+  border-radius: 1.25rem; }
+  nav .btn:hover {
+    background: #FFA710;
+    border: #FFA710; }
+
+/*# sourceMappingURL=main.css.map */
